@@ -10,7 +10,7 @@ $dom->load($html);
 
 $title = $dom->find("h3.large");
 if(!empty($title)){
-  $counter;
+  $counter++;
 }
 echo $counter;
 
