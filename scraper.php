@@ -12,7 +12,7 @@ $dom->load($html);
 
 for($i=0;$i<=$data_till;$i++){
 $title = array($dom->find("h3.large"));
-echo $title[$i];
+echo $title;
 $counter++;
 }
 echo "Total Record Fetched: " . $counter;
