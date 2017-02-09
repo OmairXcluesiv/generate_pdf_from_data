@@ -11,8 +11,8 @@ $dom = new simple_html_dom();
 $dom->load($html);
 
 for($i=0;$i<=$data_till;$i++){
-$title = array($dom->find("h3.large"));
-echo $title;
+$title = array($dom->find("strong.c000"));
+print_r($title);
 $counter++;
 }
 echo "Total Record Fetched: " . $counter;
