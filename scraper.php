@@ -8,7 +8,7 @@ $html = scraperwiki::scrape('https://www.olx.com.pk/cars/');
 $dom = new simple_html_dom();
 $dom->load($html);
 
-while($counter==35){
+while($counter=35){
 $title = array($dom->find("h3.large"));
 $counter++;
 }
