@@ -15,9 +15,9 @@ $title = array($dom->find("h3.large"));
 echo $title[$i];
 $counter++;
 }
-echo $counter;
+echo "Total Record Fetched: " . $counter;
  
-}
+
 
 
 
