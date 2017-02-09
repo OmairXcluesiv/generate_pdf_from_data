@@ -13,8 +13,8 @@ $title = array($dom->find("h3.large"));
 $counter++;
 }
 echo $counter;
-for($i=0;$i<=$counter;$i++){
- print_r($title[$i]);
+for($i=0;$i=$counter;$i++){
+ echo $title[$i];
 }
 
 
